@@ -10,7 +10,8 @@ public class quiz5th {
 		Scanner keyboard=new Scanner(System.in);
 		System.out.println("Enter name");
 		String name=keyboard.next();
-		System.out.println(name+" is studying");
+		System.out.println(name.toUpperCase() );
+		System.out.println(name+" is studying".toUpperCase());
 		
 
 	}
