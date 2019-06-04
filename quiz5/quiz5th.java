@@ -1,28 +1,31 @@
+
 package quiz5;
 
 import java.util.Scanner;
 
 public class quiz5th {
 
-	public static void main(String[] args) {
+	public void S(Object o) 
+	{ 
+	System.out.println("Object Verion"); 
+	} 
+	public void studying(String name) 
+	{ 
+	System.out.println("is studying"); 
+	}
+	public static void main(String args[]) 
+	{ 
+		quiz5th question = new quiz5th(); 
+	question.studying(null); 
+	
+	}
 		
-		// TODO Auto-generated method stub
-		Scanner keyboard=new Scanner(System.in);
-		System.out.println("Enter name");
-		String name=keyboard.next();
-		System.out.println(name.toUpperCase() );
-		System.out.println(name+" is studying".toUpperCase());
 		
+	}
+	
+		
+	
+	
 
-	}
-	public static String studying(String name){
-		
-		return name;
-		
-		
-	}
-		
-	
-	
-}
+
 
